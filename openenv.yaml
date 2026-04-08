@@ -1,0 +1,16 @@
+name: SmartRouteEnv
+
+description: Last mile delivery optimization environment
+
+entry_point: delivery_env:DeliveryEnv
+
+tasks:
+
+  - name: easy
+    packages: 3
+
+  - name: medium
+    packages: 6
+
+  - name: hard
+    packages: 10
